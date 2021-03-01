@@ -57,7 +57,7 @@ class LoadText extends AsyncTask<String, Void, Elements> {
                         menu = "lunch";
                         korTime = "점심";
                     }
-                    else if (formatedTime.compareTo("00:33") == 0) {
+                    else if (formatedTime.compareTo("17:00") == 0) {
                         menu = "dinner";
                         korTime = "저녁";
                     }
