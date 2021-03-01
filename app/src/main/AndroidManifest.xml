@@ -19,6 +19,8 @@
             </intent-filter>
         </activity>
 
+        <service android:name=".Notice"/>
+
         <receiver android:name=".TestWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -28,6 +30,5 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget" />
         </receiver>
-
     </application>
 </manifest>

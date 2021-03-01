@@ -16,7 +16,7 @@ class TestWidget() : AppWidgetProvider() {
         appWidgetIds: IntArray?
     ) {
         val views = RemoteViews(context!!.packageName, R.layout.widget)
-        val load : LoadText = LoadText(views, appWidgetManager, appWidgetIds);
+        val load : LoadText = LoadText(views, appWidgetManager, appWidgetIds, context);
         load.execute()
     }
 }
